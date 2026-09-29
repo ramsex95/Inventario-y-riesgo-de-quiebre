@@ -1,0 +1,15 @@
+.env
+!.env.example
+target/
+*.jar
+*.war
+.mvn/
+node_modules/
+dist/
+build/
+*.log
+docker-volumes/
+.idea/
+.vscode/
+*.iml
+.DS_Store
