@@ -1,0 +1,11 @@
+### 2. Carpeta: `.devcontainer/`
+
+#### Archivo: `.devcontainer/devcontainer.json`
+```json
+{
+  "name": "Inventario DevContainer",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "backend",
+  "workspaceFolder": "/workspaces/Inventario-y-riesgo-de-quiebre",
+  "remoteUser": "root"
+}
